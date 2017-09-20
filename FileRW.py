@@ -8,7 +8,7 @@ class FileRW:
         self.log_file = None
         self.name = None
 
-    def IsExist(self, name):
+    def is_exist(self, name):
         self.name = name
         data_path = os.path.join(os.getcwd(), name + '.data')
         log_path = os.path.join(os.getcwd(), name + '.log')
@@ -18,9 +18,12 @@ class FileRW:
             return False
 
         last_time = self.SyncBetweenDataLog(data_path, log_path)
-        return (True, last_time)
+        if last_time:
+            return (True, last_time)
+        else:
+            return False
 
-    def SyncBetweenDataLog(self, data_path, log_path):
+    def sync_between_data_log(self, data_path, log_path):
         self.log_file = open(log_path, 'r+', encoding='utf-8')
         if self.log_file:
             log_time_list = self.log_file.readlines()
@@ -41,7 +44,11 @@ class FileRW:
                 self.data_file = open(data_path, 'w+', encoding='utf-8')
                 return None
 
-    def WriteTweet(self, time, data):
+    def write_tweet_list(self, tw_list):
+        for id, data in tw_list:
+            self.write_tweet(id, data)
+
+    def write_tweet(self, time, data):
         data_time = str(time)
         full_data = data_time + '\n' + data
 

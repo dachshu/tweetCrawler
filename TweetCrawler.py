@@ -4,7 +4,8 @@ from selenium.webdriver.common.keys import Keys
 
 class TweetCrawelr:
     def __init__(self):
-        self.browser = webdriver.Firefox(executable_path='C:\Program Files\Mozilla Firefox\geckodriver.exe')
+        #self.browser = webdriver.Firefox(executable_path='C:\Program Files\Mozilla Firefox\geckodriver.exe')
+        self.browser = webdriver.Firefox()
         self.base_url = u'http://twitter.com/'
         
     def update(self, account, last_tweetid):

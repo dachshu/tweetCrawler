@@ -61,9 +61,9 @@ class FileRW:
                 self.data_file.write('\n\n' + full_data)
 
             if self.log_file.tell() == 0:
-                self.log_file.write(str(time))
+                self.log_file.write(str(id))
             else:
-                self.log_file.write('\n' + str(time))
+                self.log_file.write('\n' + str(id))
         except:
             print('write err')
 

@@ -2053,3 +2053,603 @@ Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrp
 
 
 KLIB_SelfTest return : KLR_OK
+1505879607239	geckodriver	INFO	geckodriver 0.18.0
+1505879607242	geckodriver	INFO	Listening on 127.0.0.1:58861
+1505879608323	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505879608693	Marionette	INFO	Enabled via --marionette
+1505879609625	Marionette	INFO	Listening on port 46599
+1505879609632	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505879609657	Marionette	DEBUG	loaded listener.js
+1505879906345	geckodriver	INFO	geckodriver 0.18.0
+1505879906347	geckodriver	INFO	Listening on 127.0.0.1:51263
+1505879907420	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505879907777	Marionette	INFO	Enabled via --marionette
+1505879908745	Marionette	INFO	Listening on port 39429
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505879908830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505879908870	Marionette	DEBUG	loaded listener.js
+1505879964809	geckodriver	INFO	geckodriver 0.18.0
+1505879964814	geckodriver	INFO	Listening on 127.0.0.1:46245
+1505879965887	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505879966256	Marionette	INFO	Enabled via --marionette
+1505879967226	Marionette	INFO	Listening on port 43865
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505879967296	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505879967321	Marionette	DEBUG	loaded listener.js
+1505880037201	geckodriver	INFO	geckodriver 0.18.0
+1505880037206	geckodriver	INFO	Listening on 127.0.0.1:60861
+1505880038278	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505880038652	Marionette	INFO	Enabled via --marionette
+1505880039662	Marionette	INFO	Listening on port 39677
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505880039686	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505880039707	Marionette	DEBUG	loaded listener.js
+1505880089153	geckodriver	INFO	geckodriver 0.18.0
+1505880089158	geckodriver	INFO	Listening on 127.0.0.1:34943
+1505880090231	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505880090597	Marionette	INFO	Enabled via --marionette
+1505880091629	Marionette	INFO	Listening on port 33643
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505880091640	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505880091663	Marionette	DEBUG	loaded listener.js
+1505880091677	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505880092946	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505880092946	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505880093636	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880093639	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880093639	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880093640	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880093640	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880093641	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880093641	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880093642	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880093653	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880093654	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880093654	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880093655	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880093655	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880093655	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880093658	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880095989	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880417952	geckodriver	INFO	geckodriver 0.18.0
+1505880417957	geckodriver	INFO	Listening on 127.0.0.1:35625
+1505880419031	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505880419382	Marionette	INFO	Enabled via --marionette
+1505880420369	Marionette	INFO	Listening on port 40699
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505880420442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505880420478	Marionette	DEBUG	loaded listener.js
+1505880420494	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505880421784	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505880421785	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505880422791	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880422862	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880422864	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880422864	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880422865	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880422865	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880422865	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880422869	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880422870	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880422870	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880422870	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880422871	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880422871	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880422871	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505880422872	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880424657	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505880719439	geckodriver	INFO	geckodriver 0.18.0
+1505880719444	geckodriver	INFO	Listening on 127.0.0.1:51297
+1505880720559	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505880720942	Marionette	INFO	Enabled via --marionette
+1505880721887	Marionette	INFO	Listening on port 45321
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505880721969	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505880721992	Marionette	DEBUG	loaded listener.js
+[Parent 20365] WARNING: pipe error: 파이프가 깨어짐: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1505881044063	geckodriver	INFO	geckodriver 0.18.0
+1505881044067	geckodriver	INFO	Listening on 127.0.0.1:36295
+1505881045140	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505881045496	Marionette	INFO	Enabled via --marionette
+1505881046537	Marionette	INFO	Listening on port 37913
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505881046547	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505881046569	Marionette	DEBUG	loaded listener.js
+1505881268094	geckodriver	INFO	geckodriver 0.18.0
+1505881268099	geckodriver	INFO	Listening on 127.0.0.1:34689
+1505881269179	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505881269540	Marionette	INFO	Enabled via --marionette
+1505881270540	Marionette	INFO	Listening on port 44113
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505881270587	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505881270609	Marionette	DEBUG	loaded listener.js
+1505881375967	geckodriver	INFO	geckodriver 0.18.0
+1505881375972	geckodriver	INFO	Listening on 127.0.0.1:54035
+1505881377041	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505881377402	Marionette	INFO	Enabled via --marionette
+1505881378304	Marionette	INFO	Listening on port 41129
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505881378376	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505881378402	Marionette	DEBUG	loaded listener.js
+1505881411057	geckodriver	INFO	geckodriver 0.18.0
+1505881411059	geckodriver	INFO	Listening on 127.0.0.1:40645
+1505881412131	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505881412493	Marionette	INFO	Enabled via --marionette
+1505881413460	Marionette	INFO	Listening on port 40385
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505881413560	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505881413596	Marionette	DEBUG	loaded listener.js
+1505881642805	geckodriver	INFO	geckodriver 0.18.0
+1505881642811	geckodriver	INFO	Listening on 127.0.0.1:41465
+1505881643884	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505881644267	Marionette	INFO	Enabled via --marionette
+1505881645225	Marionette	INFO	Listening on port 38795
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505881645298	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505881645323	Marionette	DEBUG	loaded listener.js
+1505881645362	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505881646821	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505881646821	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505881647345	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881647348	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881647348	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881647348	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881647349	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881647349	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881647349	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881647350	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881647350	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881647351	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881647351	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881647352	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881647352	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881647352	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881647353	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881650639	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+[Parent 21687] WARNING: pipe error (61): 상대편이 연결을 끊음: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1505881787661	geckodriver	INFO	geckodriver 0.18.0
+1505881787666	geckodriver	INFO	Listening on 127.0.0.1:40285
+1505881788740	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505881789124	Marionette	INFO	Enabled via --marionette
+1505881790138	Marionette	INFO	Listening on port 44709
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505881790148	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505881790171	Marionette	DEBUG	loaded listener.js
+1505881790207	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505881791580	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505881791580	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505881792178	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881792193	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881792208	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881792209	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881792209	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881792210	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881792210	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881792211	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881792211	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881792211	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881792211	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881792212	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881792212	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881792213	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881792214	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881795592	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+[Parent 21905] WARNING: pipe error (62): 상대편이 연결을 끊음: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1505881986525	geckodriver	INFO	geckodriver 0.18.0
+1505881986529	geckodriver	INFO	Listening on 127.0.0.1:53395
+1505881987603	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505881987974	Marionette	INFO	Enabled via --marionette
+1505881988874	Marionette	INFO	Listening on port 41953
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505881988944	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505881988974	Marionette	DEBUG	loaded listener.js
+1505881989002	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505881990557	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505881990558	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505881991181	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881991184	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881991185	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881991186	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881991187	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881991187	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881991188	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881991189	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881991190	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881991191	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881991191	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881991192	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881991193	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881991194	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505881991195	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505881993590	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882018277	geckodriver	INFO	geckodriver 0.18.0
+1505882018284	geckodriver	INFO	Listening on 127.0.0.1:57741
+1505882019354	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505882019706	Marionette	INFO	Enabled via --marionette
+1505882020639	Marionette	INFO	Listening on port 41019
+1505882020710	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505882020735	Marionette	DEBUG	loaded listener.js
+1505882020758	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505882022166	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505882022167	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505882022978	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882022981	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882022982	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882022982	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882022995	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882022995	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882022996	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882022996	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882022997	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882022997	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882022997	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882022998	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882022998	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882022998	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882023010	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882025146	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+[Parent 22262] WARNING: pipe error (58): 상대편이 연결을 끊음: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1505882409580	geckodriver	INFO	geckodriver 0.18.0
+1505882409586	geckodriver	INFO	Listening on 127.0.0.1:42981
+1505882410659	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505882411032	Marionette	INFO	Enabled via --marionette
+1505882411999	Marionette	INFO	Listening on port 33295
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505882412078	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505882412121	Marionette	DEBUG	loaded listener.js
+1505882412148	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505882413638	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505882413638	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505882414402	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882414404	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882414404	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882414405	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882414405	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882414405	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882414406	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882414406	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882414407	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882414407	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882414407	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882414408	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882414408	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882414408	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882414424	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882418274	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 223: TypeError: this._mm is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1505882472940	geckodriver	INFO	geckodriver 0.18.0
+1505882472945	geckodriver	INFO	Listening on 127.0.0.1:36583
+1505882474016	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505882474396	Marionette	INFO	Enabled via --marionette
+1505882475348	Marionette	INFO	Listening on port 37387
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505882475425	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505882475466	Marionette	DEBUG	loaded listener.js
+[Parent 22723] WARNING: pipe error: 파이프가 깨어짐: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1505882613363	geckodriver	INFO	geckodriver 0.18.0
+1505882613368	geckodriver	INFO	Listening on 127.0.0.1:40439
+1505882614441	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505882614820	Marionette	INFO	Enabled via --marionette
+1505882615777	Marionette	INFO	Listening on port 36709
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505882615852	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505882615884	Marionette	DEBUG	loaded listener.js
+1505882682763	geckodriver	INFO	geckodriver 0.18.0
+1505882682768	geckodriver	INFO	Listening on 127.0.0.1:42151
+1505882683838	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505882684210	Marionette	INFO	Enabled via --marionette
+1505882685168	Marionette	INFO	Listening on port 42097
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505882685265	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505882685312	Marionette	DEBUG	loaded listener.js
+1505882685331	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505882686837	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505882686837	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505882687461	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882687464	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882687464	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882687465	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882687465	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882687466	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882687466	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882687467	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882687467	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882687467	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882687471	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882687472	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882687487	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882687487	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882687489	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882692129	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882882059	geckodriver	INFO	geckodriver 0.18.0
+1505882882064	geckodriver	INFO	Listening on 127.0.0.1:33935
+1505882883136	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505882883514	Marionette	INFO	Enabled via --marionette
+1505882884503	Marionette	INFO	Listening on port 41267
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505882884543	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505882884564	Marionette	DEBUG	loaded listener.js
+1505882884587	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505882886129	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505882886129	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505882886811	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882886813	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882886816	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882886817	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882886818	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882886826	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882886827	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882886828	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882886829	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882886830	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882886831	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882886831	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882886832	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882886833	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505882886834	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505882890963	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505885401968	geckodriver	INFO	geckodriver 0.18.0
+1505885401973	geckodriver	INFO	Listening on 127.0.0.1:58897
+1505885403044	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505885403394	Marionette	INFO	Enabled via --marionette
+1505885404369	Marionette	INFO	Listening on port 45115
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505885404457	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505885404503	Marionette	DEBUG	loaded listener.js
+1505885404529	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505885406327	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505885406330	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505885406997	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505885407000	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505885407000	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505885407001	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505885407001	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505885407001	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505885407002	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505885407002	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505885407003	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505885407003	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505885407003	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505885407004	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505885407004	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505885407004	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505885407018	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/realDonaldTrump"
+1505885409381	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/realDonaldTrump"
+1505885725108	geckodriver	INFO	geckodriver 0.18.0
+1505885725112	geckodriver	INFO	Listening on 127.0.0.1:54027
+1505885726185	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505885726564	Marionette	INFO	Enabled via --marionette
+1505885727595	Marionette	INFO	Listening on port 41239
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505885727708	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505885727772	Marionette	DEBUG	loaded listener.js
+1505885727789	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505885729318	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505885729318	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505885729995	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/mofa_kr"
+1505885729998	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/mofa_kr"
+1505885729999	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/mofa_kr"
+1505885730000	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/mofa_kr"
+1505885730017	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/mofa_kr"
+1505885730018	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/mofa_kr"
+1505885730036	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/mofa_kr"
+1505885730038	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/mofa_kr"
+1505885730038	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/mofa_kr"
+1505885730039	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/mofa_kr"
+1505885730039	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/mofa_kr"
+1505885730039	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/mofa_kr"
+1505885730040	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/mofa_kr"
+1505885730040	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/mofa_kr"
+1505885730334	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/mofa_kr"
+1505885737519	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/mofa_kr"
+[Child 25511] WARNING: pipe error (3): 상대편이 연결을 끊음: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1505885870402	geckodriver	INFO	geckodriver 0.18.0
+1505885870406	geckodriver	INFO	Listening on 127.0.0.1:37851
+1505885871480	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505885871861	Marionette	INFO	Enabled via --marionette
+1505885872761	Marionette	INFO	Listening on port 45419
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505885872833	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505885872859	Marionette	DEBUG	loaded listener.js
+1505885872872	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505885874137	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505885874137	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505885874658	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505885874661	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505885874663	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505885874663	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505885874664	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505885874664	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505885874665	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505885874665	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505885874666	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505885874666	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505885874667	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505885874667	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505885874667	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505885874667	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505885874668	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505885880507	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886276790	geckodriver	INFO	geckodriver 0.18.0
+1505886276798	geckodriver	INFO	Listening on 127.0.0.1:39397
+1505886277894	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505886278283	Marionette	INFO	Enabled via --marionette
+1505886279332	Marionette	INFO	Listening on port 43913
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505886279417	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505886279462	Marionette	DEBUG	loaded listener.js
+1505886279482	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505886281076	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505886281076	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505886282846	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886282862	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886282864	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886282865	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886282866	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886282866	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886282867	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886282867	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886282867	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886282868	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886282868	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886282868	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886282869	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886282869	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886282869	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886315010	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+[Parent 26399] WARNING: pipe error (88): 상대편이 연결을 끊음: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1505886874919	geckodriver	INFO	geckodriver 0.18.0
+1505886874929	geckodriver	INFO	Listening on 127.0.0.1:41551
+1505886876034	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505886876432	Marionette	INFO	Enabled via --marionette
+1505886877475	Marionette	INFO	Listening on port 41367
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505886877556	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505886877603	Marionette	DEBUG	loaded listener.js
+1505886877620	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505886878950	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505886878951	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505886879500	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886879503	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886879503	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886879504	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886879504	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886879505	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886879505	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886879506	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886879506	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886879506	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886879507	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886879507	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886879521	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886879522	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505886879525	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505886885864	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887122507	geckodriver	INFO	geckodriver 0.18.0
+1505887122513	geckodriver	INFO	Listening on 127.0.0.1:55839
+1505887122583	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505887122973	Marionette	INFO	Enabled via --marionette
+1505887123923	Marionette	INFO	Listening on port 42601
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505887124002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505887124028	Marionette	DEBUG	loaded listener.js
+1505887124045	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505887125353	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505887125356	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505887126511	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887126516	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887126519	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887126519	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887126520	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887126520	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887126521	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887126536	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887126537	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887126537	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887126538	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887126538	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887126539	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887126539	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887126540	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887135639	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887299682	geckodriver	INFO	geckodriver 0.18.0
+1505887299692	geckodriver	INFO	Listening on 127.0.0.1:55561
+1505887300758	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505887301134	Marionette	INFO	Enabled via --marionette
+1505887302101	Marionette	INFO	Listening on port 42759
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505887302180	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505887302207	Marionette	DEBUG	loaded listener.js
+1505887302226	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505887303599	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505887303599	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505887305179	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887305181	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887305184	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887305184	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887305185	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887305185	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887305185	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887305186	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887305186	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887305186	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887305187	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887305187	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887305188	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887305188	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887305188	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887316985	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887393880	geckodriver	INFO	geckodriver 0.18.0
+1505887393885	geckodriver	INFO	Listening on 127.0.0.1:50257
+1505887394963	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505887395363	Marionette	INFO	Enabled via --marionette
+1505887396337	Marionette	INFO	Listening on port 40127
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505887396405	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505887396435	Marionette	DEBUG	loaded listener.js
+1505887396452	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505887397435	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505887397436	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505887397618	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bor_kr"
+1505887398262	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bor_kr"
+1505887411122	geckodriver	INFO	geckodriver 0.18.0
+1505887411127	geckodriver	INFO	Listening on 127.0.0.1:59467
+1505887412195	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505887412546	Marionette	INFO	Enabled via --marionette
+1505887413435	Marionette	INFO	Listening on port 40371
+1505887413507	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505887413532	Marionette	DEBUG	loaded listener.js
+1505887413553	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505887414705	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505887414705	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505887415613	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887415615	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887415617	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887415618	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887415618	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887415618	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887415619	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887415619	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887415620	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887415620	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887415621	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887415621	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887415621	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887415622	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/cat_bot_kr"
+1505887415622	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"
+1505887426056	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/cat_bot_kr"

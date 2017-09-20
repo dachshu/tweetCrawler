@@ -38,7 +38,6 @@ class FileRW:
                 data_list = data_pattern.split(self.data_file.read())
 
                 idx = data_list.index(last_log_time)
-                print(idx)
                 self.data_file.seek(0)
                 self.data_file.truncate()
                 self.data_file.write(''.join(data_list[:idx + 2]))

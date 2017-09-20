@@ -28,8 +28,15 @@ class TweetCrawelr:
          tweetids = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]//parent::div//parent::div//parent::div[contains(@class,'js-stream-tweet')]")
          tweets = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]")
          usernames = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]//parent::div//preceding-sibling::div[contains(@class,'stream-item-header')]//span[contains(@class,'username')]")
+         maintweet = self.browser.find_elements_by_class_name('js-pinned-text')
+         print(len(maintweet))
+
+         n = 0
 
          for tweetid, tweet, username in zip(tweetids, tweets, usernames):
+             if(n < len(maintweet)):
+                 n += 1
+                 continue
              tid = str()
              if tweetid.get_attribute("data-retweet-id"): tid = tweetid.get_attribute("data-retweet-id")
              else: tid = tweetid.get_attribute("data-tweet-id")
@@ -60,7 +67,15 @@ class TweetCrawelr:
          tweets = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]")
          usernames = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]//parent::div//preceding-sibling::div[contains(@class,'stream-item-header')]//span[contains(@class,'username')]")
 
+         maintweet = self.browser.find_elements_by_class_name('js-pinned-text')
+         print(len(maintweet))
+
+         n = 0
+
          for tweetid, tweet, username in zip(tweetids, tweets, usernames):
+             if(n < len(maintweet)):
+                 n += 1
+                 continue
              if(username.text == '@' + account):
                  tid = str()
                  if tweetid.get_attribute("data-retweet-id"): tid = tweetid.get_attribute("data-retweet-id")

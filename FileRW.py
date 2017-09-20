@@ -25,7 +25,7 @@ class FileRW:
         if self.log_file:
             log_time_list = self.log_file.readlines()
             if log_time_list:
-                data_pattern = re.compile(r'(?:^)?(\d+)(\n<p>.+</p>)(\n\n)')
+                data_pattern = re.compile(r'(^|\n\n)?(\d+)(\n<p>.+</p>)')
 
                 self.data_file = open(data_path, 'r+', encoding='utf-8')
                 last_log_time = log_time_list[-1]

@@ -48,11 +48,11 @@ class FileRW:
                 return (None, None)
 
     def write_tweet_list(self, tw_list):
-        for id, time, data in reversed(tw_list):
-            self.write_tweet(id, time, data)
+        for tweet_id, time, data in reversed(tw_list):
+            self.write_tweet(tweet_id, time, data)
 
-    def write_tweet(self, id, time, data):
-        full_data = str(id) + '\n' + str(time) + '\n' + data
+    def write_tweet(self, tweet_id, time, data):
+        full_data = str(tweet_id) + '\n' + str(time) + '\n' + data
 
         try:
             if self.data_file.tell() == 0:
@@ -61,9 +61,9 @@ class FileRW:
                 self.data_file.write('\n\n' + full_data)
 
             if self.log_file.tell() == 0:
-                self.log_file.write(str(id))
+                self.log_file.write(str(tweet_id))
             else:
-                self.log_file.write('\n' + str(id))
+                self.log_file.write('\n' + str(tweet_id))
         except:
             print('write err')
 

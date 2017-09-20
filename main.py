@@ -1,8 +1,8 @@
 import TweetCrawler
 import FileRW
 
-file_manager = FileRW()
-tweetCrawler = TweetCrawler()
+file_manager = FileRW.FileRW()
+tweetCrawler = TweetCrawler.TweetCrawelr()
 
 account = input('account: ')
 exist, last_id = file_manager.is_exist(account)

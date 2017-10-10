@@ -1,105 +1,73 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from datetime import datetime
 
 class TweetCrawelr:
     def __init__(self):
-        #self.browser = webdriver.Firefox(executable_path='C:\Program Files\Mozilla Firefox\geckodriver.exe')
-        self.browser = webdriver.Firefox()
-        self.base_url = u'http://twitter.com/'
+        self.browser = webdriver.Firefox(executable_path='C:\Program Files\Mozilla Firefox\geckodriver.exe')
+        #self.browser = webdriver.Firefox()
+        self.base_url = u'http://twitter.com/search?'
         
-    def update(self, account, last_tweetid):
-         ret_data = []
-         query = account
-         url = self.base_url + query
-         self.browser.get(url)
-         time.sleep(0.2)
-
-         while True:
-             self.browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-             time.sleep(1)
-             end_el = self.browser.find_element_by_class_name('stream-end')
-             tweetids = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]//parent::div//parent::div//parent::div[contains(@class,'js-stream-tweet')]")
-             cur_ti = str()
-             if tweetids[len(tweetids) - 1].get_attribute("data-retweet-id"): cur_ti = tweetids[len(tweetids) - 1].get_attribute("data-retweet-id")
-             else: cur_ti = tweetids[len(tweetids) - 1].get_attribute("data-tweet-id")
-             if last_tweetid >= int(cur_ti) : break
-
-         tweetids = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]//parent::div//parent::div//parent::div[contains(@class,'js-stream-tweet')]")
-         tweets = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]")
-         usernames = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]//parent::div//preceding-sibling::div[contains(@class,'stream-item-header')]//span[contains(@class,'username')]")
-         maintweet = self.browser.find_elements_by_class_name('js-pinned-text')
-         print(len(maintweet))
-
-         n = 0
-
-         for tweetid, tweet, username in zip(tweetids, tweets, usernames):
-             if(n < len(maintweet)):
-                 n += 1
-                 continue
-             tid = str()
-             if tweetid.get_attribute("data-retweet-id"): tid = tweetid.get_attribute("data-retweet-id")
-             else: tid = tweetid.get_attribute("data-tweet-id")
-             if(int(tid) <= last_tweetid): break
-             if(username.text == '@' + account):                 
-                 tp = (int(tid),tweet.get_attribute("outerHTML"))
-                 ret_data.append(tp)
-
-         return ret_data
+    def update(self, accounts):
+        # accounts = [(account, last_year, last_month), ...] tuple list   
+        for account in accounts:
+            self.crawling(account[0], account[1], account[2])
 
 
 
-    def crawling(self, account):
-         ret_data = []
-         query = account
-         url = self.base_url + query
-         self.browser.get(url)
-         time.sleep(0.2)
+    def crawling(self, account, join_year, join_month):
+        
+        today_year = datetime.today().year
+        today_month = datetime.today().month
 
-         while True:
-         #for i in range(2):
-             self.browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-             time.sleep(1)
-             end_el = self.browser.find_element_by_class_name('stream-end')
-             if end_el.is_displayed(): break
+        year = join_year
+        month = join_month
 
-         tweetids = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]//parent::div//parent::div//parent::div[contains(@class,'js-stream-tweet')]")
-         tweets = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]")
-         usernames = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]//parent::div//preceding-sibling::div[contains(@class,'stream-item-header')]//span[contains(@class,'username')]")
+        while True:
+            tweets = []
+            query = ""
 
-         maintweet = self.browser.find_elements_by_class_name('js-pinned-text')
-         print(len(maintweet))
+            fin = False
+            if(year == today_year and month == today_month):
+                if month == 12 :
+                    query = 'q=from%3A%40' + account + '%20since%3A' + str(year) + '-' + str(month) + '-01' + '%20until%3A'+ str(year + 1) + '-01-02&src=typd'
+                else:
+                    query = 'q=from%3A%40' + account + '%20since%3A' + str(year) + '-' + str(month) + '-01' + '%20until%3A'+ str(year) + '-' + str(month+1) + '-02&src=typd'
+                fin = True 
+            else:
+                if month == 12 :
+                    query = 'q=from%3A%40' + account + '%20since%3A' + str(year) + '-' + str(month) + '-01' + '%20until%3A'+ str(year + 1) + '-01-01&src=typd'
+                else:
+                    query = 'q=from%3A%40' + account + '%20since%3A' + str(year) + '-' + str(month) + '-01' + '%20until%3A'+ str(year) + '-' + str(month+1) + '-01&src=typd'
 
-         n = 0
+            url = self.base_url + query
+            self.browser.get(url)
+            time.sleep(1)
 
-         for tweetid, tweet, username in zip(tweetids, tweets, usernames):
-             if(n < len(maintweet)):
-                 n += 1
-                 continue
-             if(username.text == '@' + account):
-                 tid = str()
-                 if tweetid.get_attribute("data-retweet-id"): tid = tweetid.get_attribute("data-retweet-id")
-                 else: tid = tweetid.get_attribute("data-tweet-id")
-                 tp = (int(tid),tweet.get_attribute("outerHTML"))
-                 ret_data.append(tp)
+            prev_min_position = ""
+            while True:
+                self.browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(2)
+                stream_container = self.browser.find_element_by_class_name('stream-container')
+                cur_min_position = stream_container.get_attribute('data-min-position')
+                if prev_min_position == cur_min_position: break
+                prev_min_position = cur_min_position
 
-         return ret_data
+            unix_times = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]//parent::div//preceding-sibling::div[contains(@class,'stream-item-header')]//span[contains(@class,'_timestamp')]")
+            tweet_texts = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]")
+            for unix_time, tweet_text in zip(unix_times, tweet_texts):
+                tweet = (unix_time.get_attribute("data-time"), tweet_text.get_attribute("outerHTML"))
+                tweets.append(tweet)
 
+            ########################
+            #저장# account, list, year, month 넘겨줘야 한다
+            #A.write(account, tweets, year, month)
+            ########################
 
-
-    def crawl(self, account, exist, last_tweetid):
-        if(exist): return self.update(account, last_tweetid)
-        else: return self.crawling(account)
-
-
-'''
-t = TweetCrawelr()
-ret = t.crawl('realDonaldTrump',True, 909401572341370880)
-print(len(ret))
-
-for i in range(len(ret)):
-    print(ret[i][0])
-    print(ret[i][1])
-
-print("end")
-'''
+            month += 1
+            if month == 13: 
+                year += 1
+                month = 1
+    
+            if fin: break

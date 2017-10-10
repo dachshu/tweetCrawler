@@ -18,7 +18,18 @@ class FileRW:
                     if os.path.exists(data_path) and os.path.exists(log_path):
                         (last_year, last_month) = self.sync_between_data_log(
                             data_path, log_path)
-                        tw_list.append((f, last_year, last_month))
+                        if last_year and last_month:
+                            tw_list.append((f, last_year, last_month))
+                        else:
+                            os.remove(data_path)
+                            os.remove(log_path)
+                            os.rmdir(dir_path)
+                    else:
+                        if os.path.exists(data_path):
+                            os.remove(data_path)
+                        elif os.path.exists(log_path):
+                            os.remove(log_path)
+                        os.rmdir(dir_path)
         else:
             os.mkdir(tw_path)
 
@@ -70,14 +81,13 @@ class FileRW:
         log_file = open(log_path, 'r+', encoding='utf-8')
         if log_file:
             log_list = log_file.read().split('\n')
-            if log_list:
+            if log_list and len(log_list) >= 2:
                 last_log_time = log_list[-2]
                 self.delete_later_tweet(data_path, last_log_time)
 
                 year_month = log_list[-1].split('-')
-                return (year_month[0], year_month[1])
+                return (int(year_month[0]), int(year_month[1]))
             else:
-                data_file = open(data_path, 'w+', encoding='utf-8')
                 return (None, None)
 
     def write_tweet_list(self, account, tw_list, year, month):

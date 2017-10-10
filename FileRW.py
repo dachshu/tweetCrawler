@@ -45,10 +45,13 @@ class FileRW:
         data_pattern = re.compile(r'(^|\n\n)?(\d+)(\n)(<p .*>.+</p>)')
         data_list = data_pattern.split(data_file.read())
 
-        idx = data_list.index(time)
-        data_file.seek(0)
-        data_file.truncate()
-        data_file.write(''.join(data_list[:idx + 3]))
+        try:
+            idx = data_list.index(time)
+            data_file.seek(0)
+            data_file.truncate()
+            data_file.write(''.join(data_list[:idx + 3]))
+        except ValueError:
+            print('the data in log file is not in data file')
 
     def check_last_month(self, data_file, log_file, month):
         if log_file.tell() > 0:

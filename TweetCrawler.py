@@ -2,17 +2,21 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from datetime import datetime
+import FileRW
 
 class TweetCrawelr:
     def __init__(self):
         self.browser = webdriver.Firefox(executable_path='C:\Program Files\Mozilla Firefox\geckodriver.exe')
         #self.browser = webdriver.Firefox()
         self.base_url = u'http://twitter.com/search?'
+        self.fileRW = FileRW.FileRW()
         
-    def update(self, accounts):
-        # accounts = [(account, last_year, last_month), ...] tuple list   
+    def update(self):
+        # accounts = [(account, last_year, last_month), ...] tuple list
+        accounts = self.fileRW.get_all_account()
+        print(len(accounts))
         for account in accounts:
-            self.crawling(account[0], account[1], account[2])
+            self.crawling(account[0], int(account[1]), int(account[2]))
 
 
 
@@ -63,6 +67,7 @@ class TweetCrawelr:
             ########################
             #저장# account, list, year, month 넘겨줘야 한다
             #A.write(account, tweets, year, month)
+            self.fileRW.write_tweet_list(account, tweets, year, month)
             ########################
 
             month += 1

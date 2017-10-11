@@ -53,13 +53,14 @@ class FileRW:
         except ValueError:
             print('the data in log file is not in data file')
 
-    def check_last_month(self, data_file, log_file, month):
+    def check_last_month(self, data_file, log_file, year, month):
         if log_file.tell() > 0:
             log_file.seek(0)
             log_list = log_file.readlines()
             last_date = log_list[-1].split('-')
             last_month = last_date[1]
-            if int(last_month) == month:
+            last_year = last_date[0]
+            if int(last_month) == month and int(last_year) == year:
                 new_last_month = None
                 for i, log in enumerate(reversed(log_list)):
                     if re.match(r'\d+-\d+\n', log):
@@ -101,7 +102,7 @@ class FileRW:
         data_file = open(os.path.join(dir_path, 'data'), 'a+', encoding='utf-8')
         log_file = open(os.path.join(dir_path, 'log'), 'a+', encoding='utf-8')
 
-        self.check_last_month(data_file, log_file, month)
+        self.check_last_month(data_file, log_file, year, month)
 
         data = ''
         log = ''

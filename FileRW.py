@@ -1,12 +1,13 @@
 import os
 import re
 import types
+import TweetFilter
 
 
 class FileRW:
 
     def __init__(self):
-        self.filter = TweetFilter()
+        self.filter = TweetFilter.TweetFilter()
         pass
 
     def get_all_account(self):

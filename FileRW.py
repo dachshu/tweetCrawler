@@ -8,7 +8,6 @@ class FileRW:
 
     def __init__(self):
         self.filter = TweetFilter.TweetFilter()
-        pass
 
     def get_all_account(self):
         tw_path = os.path.join(os.getcwd(), 'tweets')

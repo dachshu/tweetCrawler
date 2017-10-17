@@ -132,14 +132,14 @@ class FileRW:
         else:
             log_file.write(log + '\n' + date)
 
-    def filter_tweets(self, account, type_str, batch_size=100):
+    def filter_tweets(self, account, form, batch_size=100):
         dir_path = os.path.join(os.getcwd(), 'tweets', account)
         filtered_list = []
 
         with open(os.path.join(dir_path, 'data'), 'r') as data_file:
             i = 0
             s = ''
-            tweet_list = []
+            tweets = []
             
             for line in data_file:
                 s += line
@@ -147,14 +147,14 @@ class FileRW:
                 if result:
                     s = ''
                     i += 1
-                    tweet_list.append(result.group(1))
+                    tweets.append(result.group(1))
 
                 if i == 100:
                     i = 0
-                    filtered_list += self.filter.filtering(tweet_list, type_str)
+                    filtered_list += self.filter.filtering(tweets, form)
 
             if i > 0:
-                filtered_list += self.filter.filtering(tweet_list, type_str)
+                filtered_list += self.filter.filtering(tweets, form)
         
         return filtered_list
 

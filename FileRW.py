@@ -136,7 +136,7 @@ class FileRW:
         dir_path = os.path.join(os.getcwd(), 'tweets', account)
         filtered_list = []
 
-        with open(os.path.join(dir_path, 'data'), 'r') as data_file:
+        with open(os.path.join(dir_path, 'data'), 'r', encoding='utf-8') as data_file:
             i = 0
             s = ''
             tweets = []
@@ -152,11 +152,13 @@ class FileRW:
                 if i == 100:
                     i = 0
                     filtered_list += self.filter.filtering(tweets, form)
+                    tweets.clear()
 
             if i > 0:
                 filtered_list += self.filter.filtering(tweets, form)
         
-        return filtered_list
+        with open(os.path.join(dir_path, 'text_data'), 'w', encoding='utf-8') as text_file:
+            text_file.write('\n\n'.join(filtered_list))
 
 
 if __name__ == '__main__':
@@ -169,6 +171,5 @@ if __name__ == '__main__':
     #                                               '<p class=shit>wq1</p>'), ('224', '2223', '<p class=shit>bvn</p>'), ('227', '2224', '<p class=shit>ghj</p>')]
     # fw.write_tweet_list('test', d, 2017, 11)
 
-    t = '222\n2221\n<p class=shit>asdf1</p>\n\n222\n2221\n<p class=shit>asdf2</p>'
-    ret = re.search(r'\d+\n\d+\n(<p .+>.+</p>)', t)
-    print(ret.group(1))
+    l = ['1','2','3','4','5']
+    print('ab'.join(l))

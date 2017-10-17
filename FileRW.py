@@ -35,21 +35,21 @@ class FileRW:
 
         return tw_list
 
-    def delete_later_tweet(self, path, time, file=None):
+    def delete_later_tweet(self, path, last_id, file=None):
         if file:
             data_file = file
             data_file.seek(0)
         else:
             data_file = open(path, 'r+', encoding='utf-8')
 
-        data_pattern = re.compile(r'(^|\n\n)?(\d+)(\n)(<p .*>.+</p>)')
+        data_pattern = re.compile(r'(^|\n\n)?(\d+)(\n)(\d+)(\n)(<p .*>.+</p>)')
         data_list = data_pattern.split(data_file.read())
 
         try:
-            idx = data_list.index(time)
+            idx = data_list.index(last_id)
             data_file.seek(0)
             data_file.truncate()
-            data_file.write(''.join(data_list[:idx + 3]))
+            data_file.write(''.join(data_list[:idx + 5]))
         except ValueError:
             print('the data in log file is not in data file')
 
@@ -68,8 +68,8 @@ class FileRW:
                         break
 
                 if new_last_month:
-                    new_last_time = log_list[new_last_month - 1].strip()
-                    self.delete_later_tweet(None, new_last_time, file=data_file)
+                    new_last_id = log_list[new_last_month - 1].strip()
+                    self.delete_later_tweet(None, new_last_id, file=data_file)
 
                     log_list[new_last_month] = log_list[new_last_month].strip()
                     log_file.seek(0)
@@ -86,8 +86,8 @@ class FileRW:
         if log_file:
             log_list = log_file.read().split('\n')
             if log_list and len(log_list) >= 2:
-                last_log_time = log_list[-2]
-                self.delete_later_tweet(data_path, last_log_time)
+                last_log_id = log_list[-2]
+                self.delete_later_tweet(data_path, last_log_id)
 
                 year_month = log_list[-1].split('-')
                 return (int(year_month[0]), int(year_month[1]))
@@ -107,16 +107,16 @@ class FileRW:
         data = ''
         log = ''
         date = str(year) + '-' + str(month)
-        for t, d in reversed(tw_list):
+        for i, t, d in reversed(tw_list):
             if len(data) > 0:
-                data += '\n\n' + str(t) + '\n' + d
+                data += '\n\n' + str(i) + '\n' + str(t) + '\n' + d
             else:
-                data += str(t) + '\n' + d
+                data += str(i) + '\n' +str(t) + '\n' + d
 
             if len(log) > 0:
-                log += '\n' + str(t)
+                log += '\n' + str(i)
             else:
-                log += str(t)
+                log += str(i)
 
         if data_file.tell() > 0:
             data_file.write('\n\n' + data)
@@ -135,6 +135,6 @@ if __name__ == '__main__':
     print('저장된 리스트')
     print(l)
 
-    d = [('222', '<p class=shit>asdf</p>'), ('223',
-                                                  '<p class=shit>wq1</p>'), ('224', '<p class=shit>bvn</p>'), ('227', '<p class=shit>ghj</p>')]
-    fw.write_tweet_list('test', d, 2017, 10)
+    d = [('222', '2221', '<p class=shit>asdf</p>'), ('223', '2222',
+                                                  '<p class=shit>wq1</p>'), ('224', '2223', '<p class=shit>bvn</p>'), ('227', '2224', '<p class=shit>ghj</p>')]
+    fw.write_tweet_list('test', d, 2017, 11)

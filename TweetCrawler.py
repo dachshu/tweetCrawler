@@ -62,8 +62,7 @@ class TweetCrawelr:
             tweet_texts = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]")
             tweet_ids = self.browser.find_elements_by_xpath("//p[contains(@class,'tweet-text')]//parent::div//parent::div//parent::div[contains(@class,'js-stream-tweet')]") 
             for unix_time, tweet_text, tweet_id in zip(unix_times, tweet_texts, tweet_ids):
-                #tweet = (tweet_id.get_attribute("data-tweet-id"), unix_time.get_attribute("data-time"), tweet_text.get_attribute("outerHTML"))
-                tweet = (unix_time.get_attribute("data-time"), tweet_text.get_attribute("outerHTML"))
+                tweet = (tweet_id.get_attribute("data-tweet-id"), unix_time.get_attribute("data-time"), tweet_text.get_attribute("outerHTML"))
                 tweets.append(tweet)
 
             ########################

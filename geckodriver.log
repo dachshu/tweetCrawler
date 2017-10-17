@@ -3808,10 +3808,17 @@ Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrp
 1508248761874	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
 thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Error { repr: Os { code: 10054, message: "현재 연결은 원격 호스트에 의해 강제로 끊겼습니다." } }', src\libcore\result.rs:860:4
 note: Run with `RUST_BACKTRACE=1` for a backtrace.
-1508248780448	geckodriver	INFO	geckodriver 0.19.0
-1508248780646	geckodriver	INFO	Listening on 127.0.0.1:5458
-1508248782627	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tjdth\\AppData\\Local\\Temp\\rust_mozprofile.bXGHFHiW4gae"
-1508248783273	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GPU 2776] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16716] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
 1508248784005	Marionette	INFO	Enabled via --marionette
 Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
 [GPU 17792] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
@@ -3933,3 +3940,103 @@ JavaScript warning: http://endic.naver.com/js/naver.dict.endic.core.common.js?20
 
 KLIB_SelfTest return : KLR_OK
 Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+1508255835809	geckodriver	INFO	geckodriver 0.19.0
+1508255835934	geckodriver	INFO	Listening on 127.0.0.1:8726
+1508255837981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tjdth\\AppData\\Local\\Temp\\rust_mozprofile.Zzvdk2UqXoDG"
+1508255838663	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508255839308	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 6832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4628] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4628] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508255841864	Marionette	INFO	Listening on port 8733
+1508255841911	Marionette	INFO	Listening on port 8733
+1508255842132	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508255842186	Marionette	DEBUG	loaded listener.js
+1508255842274	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508255844071	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508255844074	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508255844656	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255844954	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255844955	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255844958	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845040	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845044	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845045	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845048	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845049	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845057	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845058	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845074	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845076	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845081	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845087	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508255845377	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 16760] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508256006568	geckodriver	INFO	geckodriver 0.19.0
+1508256006698	geckodriver	INFO	Listening on 127.0.0.1:8910
+1508256008721	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tjdth\\AppData\\Local\\Temp\\rust_mozprofile.WCqc0Gpc3r7U"
+1508256009161	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508256009847	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 16076] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508256012288	Marionette	INFO	Listening on port 8916
+1508256012313	Marionette	INFO	Listening on port 8916
+1508256012378	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508256012443	Marionette	DEBUG	loaded listener.js
+1508256012530	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508256013406	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508256013406	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508256014039	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014321	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014322	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014324	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014405	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014410	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014411	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014413	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014414	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014416	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014441	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014445	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014447	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014452	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256014463	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256015092	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256085294	geckodriver	INFO	geckodriver 0.19.0
+1508256085423	geckodriver	INFO	Listening on 127.0.0.1:9073
+1508256087410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tjdth\\AppData\\Local\\Temp\\rust_mozprofile.DCoarboSxpCR"
+1508256087868	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508256088734	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7000] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 18580] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16560] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16560] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508256091310	Marionette	INFO	Listening on port 9079
+1508256091348	Marionette	INFO	Listening on port 9079
+1508256091578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508256091651	Marionette	DEBUG	loaded listener.js
+1508256091804	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508256092834	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508256092835	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508256093313	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093547	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093548	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093550	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093593	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093595	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093596	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093598	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093599	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093600	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093600	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093602	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093603	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093604	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256093623	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508256094116	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"

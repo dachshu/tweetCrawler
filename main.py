@@ -12,3 +12,11 @@ while True:
         join_month = input('join month: ')
         tweetCrawler.crawling(account, int(join_year), int(join_month))
     else: break
+
+while True:    
+    b = input("필터링 실행? ")
+    if(b == 'y' or b == 'yes'):
+        account = input('account: ')
+        form = input('form: ')
+        tweetCrawler.filtering(account, form)
+    else: break

@@ -77,3 +77,6 @@ class TweetCrawelr:
                 month = 1
     
             if fin: break
+
+    def filtering(self, account, form):
+        self.fileRW.filter_tweets(account, form)

@@ -6,7 +6,7 @@ import types
 class FileRW:
 
     def __init__(self):
-        self.filter = Filter()
+        self.filter = TweetFilter()
         pass
 
     def get_all_account(self):

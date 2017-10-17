@@ -8,7 +8,6 @@ class FileRW:
 
     def __init__(self):
         self.filter = TweetFilter.TweetFilter()
-        pass
 
     def get_all_account(self):
         tw_path = os.path.join(os.getcwd(), 'tweets')
@@ -153,7 +152,6 @@ class FileRW:
                 if i == 100:
                     i = 0
                     filtered_list += self.filter.filtering(tweets, form)
-                    tweets.clear()
 
             if i > 0:
                 filtered_list += self.filter.filtering(tweets, form)

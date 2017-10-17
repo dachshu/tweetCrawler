@@ -5,6 +5,10 @@ import types
 
 class FileRW:
 
+    def __init__(self):
+        self.filter = Filter()
+        pass
+
     def get_all_account(self):
         tw_path = os.path.join(os.getcwd(), 'tweets')
         tw_list = []
@@ -42,7 +46,7 @@ class FileRW:
         else:
             data_file = open(path, 'r+', encoding='utf-8')
 
-        data_pattern = re.compile(r'(^|\n\n)?(\d+)(\n)(\d+)(\n)(<p .*>.+</p>)')
+        data_pattern = re.compile(r'(^|\n\n)?(\d+)(\n)(\d+)(\n)(<p .+>.+</p>)')
         data_list = data_pattern.split(data_file.read())
 
         try:
@@ -128,13 +132,43 @@ class FileRW:
         else:
             log_file.write(log + '\n' + date)
 
+    def filter_tweets(self, account, type_str, batch_size=100):
+        dir_path = os.path.join(os.getcwd(), 'tweets', account)
+        filtered_list = []
+
+        with open(os.path.join(dir_path, 'data'), 'r') as data_file:
+            i = 0
+            s = ''
+            tweet_list = []
+            
+            for line in data_file:
+                s += line
+                result = re.search(r'\d+\n\d+\n(<p .+>.+</p>)', s)
+                if result:
+                    s = ''
+                    i += 1
+                    tweet_list.append(result.group(1))
+
+                if i == 100:
+                    i = 0
+                    filtered_list += self.filter.filtering(tweet_list, type_str)
+
+            if i > 0:
+                filtered_list += self.filter.filtering(tweet_list, type_str)
+        
+        return filtered_list
+
 
 if __name__ == '__main__':
-    fw = FileRW()
-    l = fw.get_all_account()
-    print('저장된 리스트')
-    print(l)
+    # fw = FileRW()
+    # l = fw.get_all_account()
+    # print('저장된 리스트')
+    # print(l)
 
-    d = [('222', '2221', '<p class=shit>asdf</p>'), ('223', '2222',
-                                                  '<p class=shit>wq1</p>'), ('224', '2223', '<p class=shit>bvn</p>'), ('227', '2224', '<p class=shit>ghj</p>')]
-    fw.write_tweet_list('test', d, 2017, 11)
+    # d = [('222', '2221', '<p class=shit>asdf</p>'), ('223', '2222',
+    #                                               '<p class=shit>wq1</p>'), ('224', '2223', '<p class=shit>bvn</p>'), ('227', '2224', '<p class=shit>ghj</p>')]
+    # fw.write_tweet_list('test', d, 2017, 11)
+
+    t = '222\n2221\n<p class=shit>asdf1</p>\n\n222\n2221\n<p class=shit>asdf2</p>'
+    ret = re.search(r'\d+\n\d+\n(<p .+>.+</p>)', t)
+    print(ret.group(1))

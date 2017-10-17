@@ -3622,3 +3622,314 @@ Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrp
 1508242266370	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40cat_bot_kr%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
 1508242266373	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40cat_bot_kr%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
 1508242322567	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40cat_bot_kr%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8504] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4272] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508243321694	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2992] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508243324248	Marionette	INFO	Listening on port 12850
+1508243324293	Marionette	INFO	Listening on port 12850
+1508243324521	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508243324588	Marionette	DEBUG	loaded listener.js
+1508243362012	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508243363122	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508243363123	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508243363853	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363864	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363875	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363875	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363878	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363878	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363880	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363881	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363882	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363882	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363884	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363884	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363886	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363887	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243363889	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243366757	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243388272	Marionette	DEBUG	Received DOM event "beforeunload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243389057	Marionette	DEBUG	Received DOM event "pagehide" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243389328	Marionette	DEBUG	Received DOM event "unload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508243389748	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1508243389749	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1508243389750	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1508243389751	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1508243389752	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1508243389752	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1508243389753	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967307"
+1508243389811	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389968	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389971	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389973	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389977	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389978	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389979	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389980	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389981	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389982	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389983	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389984	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389985	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389985	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243389987	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508243394245	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+[Parent 15128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15756] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15756] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+1508248708986	geckodriver	INFO	geckodriver 0.19.0
+1508248709202	geckodriver	INFO	Listening on 127.0.0.1:4895
+1508248711095	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tjdth\\AppData\\Local\\Temp\\rust_mozprofile.1dU77KF15V2g"
+1508248711569	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508248712265	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 2776] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508248714618	Marionette	INFO	Listening on port 4904
+1508248714640	Marionette	INFO	Listening on port 4904
+1508248714746	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508248714800	Marionette	DEBUG	loaded listener.js
+1508248714900	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508248715906	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508248715906	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508248716544	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716725	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716729	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716730	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716733	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716734	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716735	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716736	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716738	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716738	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716740	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716741	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716742	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716743	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248716744	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248718525	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248733560	Marionette	DEBUG	Received DOM event "beforeunload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248734026	Marionette	DEBUG	Received DOM event "pagehide" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248734186	Marionette	DEBUG	Received DOM event "unload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248734541	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734735	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734737	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734740	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734765	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483670"
+1508248734765	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483672"
+1508248734766	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508248734766	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1508248734767	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1508248734768	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1508248734768	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1508248734769	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1508248734769	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1508248734789	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734793	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734793	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734796	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734797	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734798	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734799	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734800	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734800	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734801	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248734811	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248736071	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248743578	Marionette	DEBUG	Received DOM event "beforeunload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248744042	Marionette	DEBUG	Received DOM event "pagehide" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248744203	Marionette	DEBUG	Received DOM event "unload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248744545	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744715	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744733	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
+1508248744734	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483676"
+1508248744734	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483679"
+1508248744734	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483680"
+1508248744735	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483681"
+1508248744736	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483682"
+1508248744737	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483683"
+1508248744760	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744763	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744764	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744766	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744766	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744768	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744768	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744769	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744788	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744788	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744791	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744792	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248744793	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248746553	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 16716] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508248753655	Marionette	DEBUG	Received DOM event "beforeunload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248754131	Marionette	DEBUG	Received DOM event "pagehide" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248754284	Marionette	DEBUG	Received DOM event "unload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248754615	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754762	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754763	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754764	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754775	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483690"
+1508248754775	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483692"
+1508248754776	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483693"
+1508248754776	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483694"
+1508248754777	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483695"
+1508248754778	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
+1508248754778	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483701"
+1508248754801	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754809	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754809	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754812	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754813	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754814	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754814	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754816	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754816	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754817	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248754825	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248761874	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Error { repr: Os { code: 10054, message: "현재 연결은 원격 호스트에 의해 강제로 끊겼습니다." } }', src\libcore\result.rs:860:4
+note: Run with `RUST_BACKTRACE=1` for a backtrace.
+1508248780448	geckodriver	INFO	geckodriver 0.19.0
+1508248780646	geckodriver	INFO	Listening on 127.0.0.1:5458
+1508248782627	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tjdth\\AppData\\Local\\Temp\\rust_mozprofile.bXGHFHiW4gae"
+1508248783273	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508248784005	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 17792] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508248786529	Marionette	INFO	Listening on port 5466
+1508248786555	Marionette	INFO	Listening on port 5466
+1508248786781	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508248786821	Marionette	DEBUG	loaded listener.js
+1508248786899	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508248787973	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508248787973	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508248788811	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788828	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788838	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788843	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788845	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788846	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788850	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788852	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788855	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788855	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788857	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788858	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788864	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788868	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248788872	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248791404	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248816318	Marionette	DEBUG	Received DOM event "beforeunload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248816872	Marionette	DEBUG	Received DOM event "pagehide" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248817052	Marionette	DEBUG	Received DOM event "unload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-7-01%20until%3A2017-8-01&src=typd"
+1508248817340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483670"
+1508248817341	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483672"
+1508248817342	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508248817343	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1508248817344	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1508248817344	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1508248817345	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1508248817348	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1508248817349	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1508248817388	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817563	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817569	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817570	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817572	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817573	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817575	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817576	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817579	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817580	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817583	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817584	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817586	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817586	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248817588	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248822618	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248843230	Marionette	DEBUG	Received DOM event "beforeunload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248843906	Marionette	DEBUG	Received DOM event "pagehide" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248844151	Marionette	DEBUG	Received DOM event "unload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-8-01%20until%3A2017-9-01&src=typd"
+1508248844467	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483689"
+1508248844468	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483691"
+1508248844469	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483693"
+1508248844470	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
+1508248844470	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483676"
+1508248844470	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483677"
+1508248844470	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483678"
+1508248844471	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483679"
+1508248844471	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483680"
+1508248844471	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483681"
+1508248844496	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844721	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844723	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844723	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844724	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844724	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844725	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844726	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844727	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844727	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844729	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844729	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844732	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844735	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248844737	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248850689	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248872544	Marionette	DEBUG	Received DOM event "beforeunload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248873068	Marionette	DEBUG	Received DOM event "pagehide" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248873289	Marionette	DEBUG	Received DOM event "unload" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-9-01%20until%3A2017-10-01&src=typd"
+1508248873624	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873788	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483696"
+1508248873789	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483697"
+1508248873790	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483698"
+1508248873791	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483699"
+1508248873791	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
+1508248873791	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483701"
+1508248873792	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483702"
+1508248873820	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873824	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873825	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873827	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873828	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873830	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873831	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873832	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873833	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873834	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873835	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873836	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873837	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248873838	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+1508248881607	Marionette	DEBUG	Received DOM event "pageshow" for "https://twitter.com/search?q=from%3A%40realDonaldTrump%20since%3A2017-10-01%20until%3A2017-11-02&src=typd"
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ssl.pstatic.net/sstatic/sdyn.js?f=/au/pc/_nx/jindo_1.5.3_170518b.js+/search/js/nhn.Component.js+/search/js/jindo.Component.1.1.0.js+/search/js/jindo.component.library_120927.js+/search/js/flashObject_121025.js+/au/pc/search_option/nhn.search.search_option_160824.js+/au/pc/naver_autocomplete/nhn.common.atcmp.naver_web_170713_1.js+/au/s/pc/_common/jindo/jindo.Rolling_140526.js+/au/pc/_common/nhn.common_170518.js+/au/pc/_nx/2017/nx_jquery_0622b.js, line 10: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: http://endic.naver.com/js/naver.dict.endic.core.common.js?20170928180522, line 385: unreachable code after return statement
+[Child 14440] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 17792] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 17792] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+KLIB_SelfTest return : KLR_OK
+Unable to read VR Path Registry from C:\Users\tjdth\AppData\Local\openvr\openvrpaths.vrpath

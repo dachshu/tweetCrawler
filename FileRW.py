@@ -1,12 +1,13 @@
 import os
 import re
 import types
+import TweetFilter
 
 
 class FileRW:
 
     def __init__(self):
-        self.filter = TweetFilter()
+        self.filter = TweetFilter.TweetFilter()
         pass
 
     def get_all_account(self):
@@ -152,6 +153,7 @@ class FileRW:
                 if i == 100:
                     i = 0
                     filtered_list += self.filter.filtering(tweets, form)
+                    tweets.clear()
 
             if i > 0:
                 filtered_list += self.filter.filtering(tweets, form)

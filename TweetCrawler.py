@@ -6,8 +6,8 @@ import FileRW
 
 class TweetCrawelr:
     def __init__(self):
-        #self.browser = webdriver.Firefox(executable_path='C:\Program Files\Mozilla Firefox\geckodriver.exe')
-        self.browser = webdriver.Firefox()
+        self.browser = webdriver.Firefox(executable_path='C:\Program Files\Mozilla Firefox\geckodriver.exe')
+        #self.browser = webdriver.Firefox()
         self.base_url = u'http://twitter.com/search?'
         self.fileRW = FileRW.FileRW()
         

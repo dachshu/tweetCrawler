@@ -168,9 +168,10 @@ class FileRW:
             s = ''
             tweets = []
 
+            ptn = re.compile(r'\d+\n\d+\n(<p .+>.+</p>)')
             for line in data_file:
                 s += line
-                result = re.search(r'\d+\n\d+\n(<p .+>.+</p>)', s)
+                result = ptn.search(s)
                 if result:
                     s = ''
                     i += 1

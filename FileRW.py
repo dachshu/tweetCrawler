@@ -66,8 +66,9 @@ class FileRW:
             last_year = last_date[0]
             if int(last_month) == month and int(last_year) == year:
                 new_last_month = None
+                ptn = re.compile(r'\d+-\d+\n')
                 for i, log in enumerate(reversed(log_list)):
-                    if re.match(r'\d+-\d+\n', log):
+                    if ptn.match(log):
                         new_last_month = len(log_list) - i - 1
                         break
 
@@ -78,7 +79,7 @@ class FileRW:
                     log_list[new_last_month] = log_list[new_last_month].strip()
                     log_file.seek(0)
                     log_file.truncate()
-                    log_file.write(''.join(log_list[:new_last_month+1]))
+                    log_file.write(''.join(log_list[:new_last_month + 1]))
                 else:
                     data_file.seek(0)
                     data_file.truncate()
@@ -89,21 +90,42 @@ class FileRW:
         log_file = open(log_path, 'r+', encoding='utf-8')
         if log_file:
             log_list = log_file.read().split('\n')
-            if log_list and len(log_list) >= 2:
-                last_log_id = log_list[-2]
-                self.delete_later_tweet(data_path, last_log_id)
+            if log_list:
+                valid = re.fullmatch(r'\d+-\d+', log_list[-1])
+                # log의 마지막 줄이 비정상적인 경우
+                if not valid:
+                    idx = 0
+                    ptn = re.compile(r'\d+-\d+')
+                    for i, log in enumerate(reversed(log_list[:-1])):
+                        if ptn.fullmatch(log):
+                            idx = i + 1
+                            break
 
-                year_month = log_list[-1].split('-')
-                return (int(year_month[0]), int(year_month[1]))
-            else:
-                return (None, None)
+                    log_list = log_list[:-idx]
+                    log_file.seek(0)
+                    log_file.truncate()
+                    log_file.write('\n'.join(log_list))
+
+                if valid or log_list:
+                    ptn = re.compile(r'\d+')
+                    for log in reversed(log_list[:-1]):
+                        if ptn.fullmatch(log):
+                            last_log_id = log
+                            self.delete_later_tweet(data_path, last_log_id)
+                            break
+
+                    year_month = log_list[-1].split('-')
+                    return (int(year_month[0]), int(year_month[1]))
+
+            return (None, None)
 
     def write_tweet_list(self, account, tw_list, year, month):
         dir_path = os.path.join(os.getcwd(), 'tweets', account)
         if not os.path.isdir(dir_path):
             os.mkdir(dir_path)
 
-        data_file = open(os.path.join(dir_path, 'data'), 'a+', encoding='utf-8')
+        data_file = open(os.path.join(dir_path, 'data'),
+                         'a+', encoding='utf-8')
         log_file = open(os.path.join(dir_path, 'log'), 'a+', encoding='utf-8')
 
         self.check_last_month(data_file, log_file, year, month)
@@ -115,22 +137,27 @@ class FileRW:
             if len(data) > 0:
                 data += '\n\n' + str(i) + '\n' + str(t) + '\n' + d
             else:
-                data += str(i) + '\n' +str(t) + '\n' + d
+                data += str(i) + '\n' + str(t) + '\n' + d
 
             if len(log) > 0:
                 log += '\n' + str(i)
             else:
                 log += str(i)
 
-        if data_file.tell() > 0:
+        if (data_file.tell() > 0) and data:
             data_file.write('\n\n' + data)
         else:
             data_file.write(data)
 
-        if log_file.tell() > 0:
+        is_not_empty = log_file.tell() > 0
+        if is_not_empty and log:
             log_file.write('\n' + log + '\n' + date)
-        else:
+        elif log:
             log_file.write(log + '\n' + date)
+        elif is_not_empty:
+            log_file.write('\n' + date)
+        else:
+            log_file.write(date)
 
     def filter_tweets(self, account, form, batch_size=100):
         dir_path = os.path.join(os.getcwd(), 'tweets', account)
@@ -140,7 +167,7 @@ class FileRW:
             i = 0
             s = ''
             tweets = []
-            
+
             for line in data_file:
                 s += line
                 result = re.search(r'\d+\n\d+\n(<p .+>.+</p>)', s)
@@ -156,20 +183,17 @@ class FileRW:
 
             if i > 0:
                 filtered_list += self.filter.filtering(tweets, form)
-        
+
         with open(os.path.join(dir_path, 'text_data'), 'w', encoding='utf-8') as text_file:
             text_file.write('\n\n'.join(filtered_list))
 
 
 if __name__ == '__main__':
-    # fw = FileRW()
-    # l = fw.get_all_account()
-    # print('저장된 리스트')
-    # print(l)
+    fw = FileRW()
+    l = fw.get_all_account()
+    print('저장된 리스트')
+    print(l)
 
-    # d = [('222', '2221', '<p class=shit>asdf</p>'), ('223', '2222',
-    #                                               '<p class=shit>wq1</p>'), ('224', '2223', '<p class=shit>bvn</p>'), ('227', '2224', '<p class=shit>ghj</p>')]
-    # fw.write_tweet_list('test', d, 2017, 11)
-
-    l = ['1','2','3','4','5']
-    print('ab'.join(l))
+    d = [('242', '2421', '<p class=shit>asdf</p>'), ('243', '2422',
+                                                     '<p class=shit>wq1</p>'), ('244', '2423', '<p class=shit>bvn</p>'), ('247', '2424', '<p class=shit>ghj</p>')]
+    fw.write_tweet_list('test', d, 2018, 1)

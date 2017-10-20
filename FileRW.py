@@ -159,6 +159,8 @@ class FileRW:
         else:
             log_file.write(date)
 
+        print(account + ':', str(year) + '-' + str(month), '저장됨')
+
     def filter_tweets(self, account, form, batch_size=100):
         dir_path = os.path.join(os.getcwd(), 'tweets', account)
         filtered_list = []

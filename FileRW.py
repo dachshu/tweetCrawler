@@ -170,16 +170,16 @@ class FileRW:
             s = ''
             tweets = []
 
-            ptn = re.compile(r'\d+\n\d+\n(<p .+>.+</p>)')
+            ptn = re.compile(r'\d+\n\d+\n<p .+>.+</p>')
             for line in data_file:
                 s += line
                 result = ptn.search(s)
                 if result:
                     s = ''
                     i += 1
-                    tweets.append(result.group(1))
+                    tweets.append(result.group(0))
 
-                if i == 100:
+                if i == batch_size:
                     i = 0
                     filtered_list += self.filter.filtering(tweets, form)
                     tweets.clear()
@@ -187,8 +187,8 @@ class FileRW:
             if i > 0:
                 filtered_list += self.filter.filtering(tweets, form)
 
-        with open(os.path.join(dir_path, 'text_data'), 'w', encoding='utf-8') as text_file:
-            text_file.write('\n\n'.join(filtered_list))
+        with open(os.path.join(dir_path, 'data_'+form), 'w', encoding='utf-8') as text_file:
+            text_file.write(''.join(filtered_list))
 
 
 if __name__ == '__main__':

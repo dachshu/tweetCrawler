@@ -11,7 +11,7 @@ HTML 문서에서 트윗들을 저장할 때 일단 문서에서 필요한 데�
 - [geckodriver](https://github.com/mozilla/geckodriver) (PATH에 등록되어있어야 함.)
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 ## 사용법
-`python3`를 이용해서 `main.py`를 실행시키면 프로그램이 시작된다.
+`python3`를 이용해서 `main.py`를 실행시키면 프로그램이 시작된다. `python3 main.py`
 
 업데이트가 끝나면 트윗을 크롤링하겠냐는 질문이 나온다. y를 선택한 경우 계정과 크롤링 시작 년,월을 입력받는다. n을 선택하면 크롤링 단계를 넘어간다.
 
